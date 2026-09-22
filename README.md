@@ -954,41 +954,6 @@ At this time, this cannot be disabled.
 
 Please note, plugin configurations do **not** and should **not** contain any sensitive information which allows us to collect this information. Any sensitive information, e.g. Discord login tokens, should be included in the `connectors` section of the config which is not sent to our API. It is important that developers of custom plugins maintain this approach to avoid submitting confidential information to our API.
 
-## Versions and Releases
-
-Whilst installing SquadJS you may do the following to obtain slightly different versions:
-
-- Download the [latest release](https://github.com/Team-Silver-Sphere/SquadJS/releases/latest) - To get the latest **stable** version of SquadJS.
-- Download/clone the [`master` branch](https://github.com/Team-Silver-Sphere/SquadJS/) - To get the most up to date version of SquadJS.
-
-All changes proposed to SquadJS will be merged into the `master` branch prior to being released in the next stable version to allow for a period of larger-scale testing to occur. Therefore, we only recommend individuals who are willing to update regularly and partake in testing/bug reporting use the `master` branch. Please note, updates to the `master` branch will not be advertised in the SquadJS startup information, however, notifications of merged pull requests into the `master` branch may be found in our [Discord](https://discord.gg/9F2Ng5C). Once the `master` branch is deemed stable a release will be published and advertised via the SquadJS startup information and our [Discord](https://discord.gg/9F2Ng5C).
-
-Releases will be given a version number with the format `v{major}.{minor}.{patch}`, e.g. `v3.1.4`. Changes to `{major}`/`{minor}`/`{patch}` will imply the following:
-
-- `{major}` - The release contains a new/updated feature that is (potentially) breaking, e.g. changes to event outputs that may cause custom plugins to break.
-- `{minor}` - The release contains a new/updated feature.
-- `{patch}` - The release contains a bug fix.
-
-Please note, `{minor}`/`{patch}` releases may still break SquadJS installations, however, this may be prevented with configuration changes and should not require custom plugins to be updated.
-
-Release version numbers and changelogs are managed by [Release Drafter](https://github.com/marketplace/actions/release-drafter) which relies on the appropriate labels being applied to pull requests. Version numbers are updated in the `package.json` file manually prior to publishing the release draft.
-
-The above policy was written and put into effect after the release of SquadJS v2.0.5. A major version bump to SquadJS v3.0.0 was made to signify this policy taking affect and to draw a line under the previous poor management of releases and version numbers.
-
-## Credits & Acknowledgements
-
-SquadTS is a TypeScript variant built upon the foundation of **SquadJS**. Our thanks and full credit go to:
-
-- **Thomas Smyth** ([GitHub Profile](https://github.com/Thomas-Smyth)) - Creator of SquadJS.
-- **Team Silver Sphere** ([SquadJS GitHub](https://github.com/Team-Silver-Sphere/SquadJS)) - Original SquadJS repository & organization.
-- [SquadJS's contributors](https://github.com/Team-Silver-Sphere/SquadJS/graphs/contributors).
-- [Thomas Smyth's GitHub sponsors](https://github.com/sponsors/Thomas-Smyth).
-- subtlerod for proposing the initial log parsing idea, helping to design the log parsing process and for providing multiple servers to test with.
-- Shanomac99 and the rest of the Squad Wiki team for providing us with [layer information](https://github.com/Squad-Wiki-Editorial/squad-wiki-pipeline-map-data).
-- Fourleaf, Mex, various members of ToG / ToG-L and others that helped to stage logs and participate in small scale tests.
-- Various Squad servers/communities for participating in larger scale tests and for providing feedback on plugins.
-- Everyone in the [Squad RCON Discord](https://discord.gg/9F2Ng5C) and others who have submitted bug reports, suggestions, feedback and provided logs.
-
 ## License
 
 ```
