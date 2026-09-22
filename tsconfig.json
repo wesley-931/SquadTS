@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noEmitOnError": false,
+    "paths": {
+      "core/*": ["./src/core/*"],
+      "core": ["./src/core/index.ts"],
+      "squad-server/*": ["./src/squad-server/*"],
+      "squad-server": ["./src/squad-server/index.ts"],
+      "squad-server/factory": ["./src/squad-server/factory.ts"],
+      "squad-server/logo": ["./src/squad-server/utils/print-logo.ts"],
+      "squad-server/plugins": ["./src/squad-server/plugins/index.ts"],
+      "squad-server/types": ["./src/squad-server/types.ts"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

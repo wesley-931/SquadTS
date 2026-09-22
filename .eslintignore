@@ -1,0 +1,6 @@
+# General
+**/node_modules/*
+dist/
+eslint.config.js
+
+index-test.js
