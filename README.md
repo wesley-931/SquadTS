@@ -11,10 +11,6 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/wesley-931/SquadTS.svg?style=flat-square)](https://github.com/wesley-931/SquadTS/graphs/contributors)
 [![GitHub license](https://img.shields.io/github/license/wesley-931/SquadTS.svg?style=flat-square)](https://github.com/wesley-931/SquadTS/blob/main/LICENSE)
 
-<br>
-
-[![Discord](https://img.shields.io/discord/266210223406972928.svg?style=flat-square&logo=discord)](https://discord.gg/9F2Ng5C)
-
 <br><br>
 </div>
 
